@@ -81,7 +81,7 @@ const TasksPage = () => {
         }}
         className="border-solid border-2 border-white p-2 m-5 rounded-lg hover:bg-white hover:text-black"
       >
-        {hideCompleted ? "顯示已完成" : "隱藏已完成"}
+        {hideCompleted ? "顯示已完成任務" : "隱藏已完成任務"}
       </button>
       {/* table */}
       <table className="border-solid border-2 border-sky-500 p-2 m-5">
